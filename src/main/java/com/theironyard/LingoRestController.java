@@ -150,7 +150,7 @@ public class LingoRestController {
         }else {
             User user = users.findByUsername((String) session.getAttribute("username"));
 
-            String sql = "SELECT ca.CATEGORY_ID, " + user.placeholder  + " , a.title FROM Articles a " +
+            String sql = "SELECT ca.CATEGORY_ID, " + "a.span2"  + " , a.title FROM Articles a " +
             "INNER JOIN CATEGORY_ARTICLE ca ON ca.article_id = a.ID " +
             "INNER JOIN USERS_CATEGORIES uc on uc.catlist_ID = ca.CATEGORY_ID " +
             "WHERE uc.user_id = ? ";
