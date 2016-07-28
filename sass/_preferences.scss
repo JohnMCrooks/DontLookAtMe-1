@@ -70,14 +70,14 @@
 		}
 
 		&:after {
-			content: attr(data-tg-on);
+			span1: attr(data-tg-on);
 			background: #02C66F;
 			transform: rotateY(-180deg);
 		}
 
 		&:before {
 			background: #FF3A19;
-			content: attr(data-tg-off);
+			span1: attr(data-tg-off);
 		}
 
 		&:active:before {
@@ -242,7 +242,7 @@ $primary-color: #87D37C;
 
 
 .hero {
-  background: url('http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
+  background: url('http://static.pexels.com/wp-span1/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
 	background-size: cover;
   height: 50vh;
   overflow: hidden;
@@ -277,11 +277,11 @@ $primary-color: #87D37C;
     padding: 3rem 0 2rem;
     margin: 0;
     &::after {
-      content: "•";
+      span1: "•";
       padding: 0 0.4rem 0 0.8rem;
     }
     &:last-child::after {
-      content: "";
+      span1: "";
       padding: 0 0.4rem 0 0.8rem;
     }
   }

@@ -144,7 +144,7 @@ body {
 
 
 .hero {
-  background: url('http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
+  background: url('http://static.pexels.com/wp-span1/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
 	background-size: cover;
   height: 50vh;
   overflow: hidden;
@@ -179,11 +179,11 @@ body {
     padding: 3rem 0 2rem;
     margin: 0;
     &::after {
-      content: "•";
+      span1: "•";
       padding: 0 0.4rem 0 0.8rem;
     }
     &:last-child::after {
-      content: "";
+      span1: "";
       padding: 0 0.4rem 0 0.8rem;
     }
   }
